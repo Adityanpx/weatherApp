@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function Services() {
   return (<>
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full p-8 mt-20 py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div
           className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
@@ -26,13 +26,13 @@ export function Services() {
         </div>
       </div>
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+    <section className="w-full p-8 py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <Card className="group">
             <CardContent className="flex flex-col items-start gap-4">
               <div
-                className="bg-gray-900 p-3 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
+                className="bg-gray-900 p-3 mt-4 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
                 <SunIcon className="h-8 w-8 text-white" />
               </div>
               <div>
@@ -46,7 +46,7 @@ export function Services() {
           <Card className="group">
             <CardContent className="flex flex-col items-start gap-4">
               <div
-                className="bg-gray-900 p-3 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
+                className="bg-gray-900 mt-4 p-3 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
                 <CalendarIcon className="h-8 w-8 text-white" />
               </div>
               <div>
@@ -58,7 +58,7 @@ export function Services() {
           <Card className="group">
             <CardContent className="flex flex-col items-start gap-4">
               <div
-                className="bg-gray-900 p-3 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
+                className="bg-gray-900 mt-4 p-3 rounded-lg group-hover:shadow-lg group-hover:scale-105 transition-all">
                 <BellIcon className="h-8 w-8 text-white" />
               </div>
               <div>
@@ -72,9 +72,9 @@ export function Services() {
         </div>
       </div>
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full p-8 py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6 text-center">
-        <div className="space-y-3">
+        <div className="space-y-3" >
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Explore Our Weather Services</h2>
           <p
             className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
