@@ -34,7 +34,7 @@ export function HomePage() {
               {temperature && (
                 <>
                   <div className="text-5xl text-black font-bold">{temperature}°C</div>
-                  <div className="text-2xl textt-black font-medium">{city}</div>
+                  <div className="text-2xl text-black font-medium">{city}</div>
                 </>
               )}
             </div>
