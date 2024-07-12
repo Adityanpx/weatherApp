@@ -3,15 +3,15 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    (<footer className="bg-blue-100 py-8 dark:bg-gray-800">
+    (<footer className="bg-blue-100 py-8 dark:bg-black">
       <div
         className="container mx-auto flex flex-col items-center justify-center space-y-4 px-4 md:flex-row md:space-y-0 md:space-x-8">
         <div className="flex flex-col items-center space-y-2 md:items-start">
           <div className="flex items-center space-x-2">
-            <CloudIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
+            <CloudIcon className="h-6 w-6 text-gray-500 dark:text-white" />
             <span className="text-lg font-bold">Weather App</span>
           </div>
-          <p className="text-sm text-gray-500 dark:text-gray-400">Get the latest weather updates for your location.</p>
+          <p className="text-sm text-gray-500 dark:text-white">Get the latest weather updates for your location.</p>
         </div>
         <nav
           className="flex flex-wrap items-center justify-center gap-4 md:justify-start">
@@ -38,7 +38,7 @@ export function Footer() {
         </nav>
       </div>
       <div
-        className="mt-8 border-t border-gray-200 pt-4 text-center text-sm text-gray-500 dark:border-gray-700 dark:text-gray-400">
+        className="mt-8 border-t border-gray-200 pt-4 text-center text-sm text-gray-500 dark:border-gray-500 dark:text-gray-500">
         © 2024 Weather App. All rights reserved.
       </div>
     </footer>)
